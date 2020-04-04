@@ -38,7 +38,7 @@ get "/tweets/:id/delete" do
   erb :delete
 end
 
-delete '/tweets/:id' do
+delere '/tweets/:id' do
   tweet = Tweet.find(params[:id])
   tweet.delete
   redirect '/'
