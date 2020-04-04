@@ -9,7 +9,7 @@ class Tweet < ActiveRecord::Base
 end
 
 get "/" do
-    @tweets = Tweet.all
+    @tweets = tweet.all
     erb :index
 end
 
