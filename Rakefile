@@ -4,4 +4,4 @@ namespace :db do
   task :load_config do
     require "./pictweet"
   end
-end
+endbundle exec rake -T
