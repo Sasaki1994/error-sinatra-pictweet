@@ -5,7 +5,7 @@ Bundler.require
 
 set :database, {adapter: "sqlite3", database: "tweets.sqlite3"}
 
-class Tweet < ActiveRecord::Base
+class Tweets < ActiveRecord::Base
 end
 
 get "/" do
