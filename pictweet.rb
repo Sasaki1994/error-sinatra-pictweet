@@ -33,7 +33,7 @@ patch '/tweets/:id' do
   redirect '/'
 end
 
-get "/tweets/:id/delete" do
+get "/tweets/id/delete" do
   @tweet = Tweet.find(params[:id])
   erb :delete
 end
