@@ -23,7 +23,7 @@ post "/tweets" do
 end
 
 get "/tweets/:id/edit" do
-  @tweet = Tweet.find(params[:id])
+  @tweet = Tweet.find(params[id])
   erb :edit
 end
 
