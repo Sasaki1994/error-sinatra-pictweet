@@ -16,3 +16,8 @@ end
 get "/tweets/new" do
     erb :new 
 end
+
+post "/tweets" do
+    Tweet.create(params)
+    redirect '/'
+end

@@ -10,4 +10,5 @@ gem "sinatra-reloader"
 gem "sinatra-activerecord"
 gem 'activerecord', '~> 5.2.0'
 gem "sqlite3"
-gem "rake"  
+gem "rake"
+gem "pry"

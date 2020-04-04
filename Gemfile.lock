@@ -14,13 +14,18 @@ GEM
       tzinfo (~> 1.1)
     arel (9.0.0)
     backports (3.17.0)
+    coderay (1.1.2)
     concurrent-ruby (1.1.6)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
+    method_source (1.0.0)
     minitest (5.14.0)
     multi_json (1.14.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
+    pry (0.13.0)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
     rack (2.2.2)
     rack-protection (2.0.8.1)
       rack
@@ -54,6 +59,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (~> 5.2.0)
+  pry
   rake
   sinatra
   sinatra-activerecord
