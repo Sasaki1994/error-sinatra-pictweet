@@ -18,6 +18,6 @@ get "/tweets/new" do
 end
 
 post "/tweets" do
-    Tweet.create(param)
+    Tweet.create(params)
     redirect '/'
 end
