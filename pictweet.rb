@@ -9,7 +9,7 @@ class Tweet < ActiveRecord::Base
 end
 
 get "/" do
-    @random = rand(6) + 1
+    @tweets = Tweet.all
     erb :index
 end
 
