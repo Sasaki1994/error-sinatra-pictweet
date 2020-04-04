@@ -5,5 +5,5 @@ Bundler.require
 
 get "/" do
     @random = rand(6) + 1
-    erb :index
+    erb index
 end
