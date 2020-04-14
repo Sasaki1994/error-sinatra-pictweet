@@ -28,7 +28,7 @@ get "/tweets/:id/edit" do
 end
 
 patch '/tweets/:id' do
-  tweet = Tweet.find(text: params[:txt], image: params[:image])
-  tweet.update()
+  tweet = Tweet.find(params[:id])
+  tweet.update(text: params[:txt], image: params[:image])
   redirect '/'
 end
