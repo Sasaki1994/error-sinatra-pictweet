@@ -3,7 +3,7 @@
     <h3>編集する</h3>
     <input type="text" name="image" placeholder='Image URL' value="<%= @tweet.image %>">
     <input type='hidden' name="_method" value="patch">
-    <textarea name="text" placeholder='text'><%= @tweet.text %></textarea>
+    <textarea name="txt" placeholder='text'><%= @tweet.text %></textarea>
     <input type="submit" value='SEND'>
   </form>
 </div>
